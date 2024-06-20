@@ -86,4 +86,4 @@ router.delete("/users/:id", async(req, res) => {
     }
 });
 
-app.use("/api", router);
+export default router;
